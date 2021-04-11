@@ -18,7 +18,7 @@ There are a few rules you can use to help you figure out the time complexity of 
 
 ### Loops
 
-A common reason why an algorithm is slow is that it contains many loops that gothrough the input. The more nested loops the algorithm contains, the slower it is. If there are *k* nested loops, the time complexity is **O**(*nᵏ* ).
+A common reason why an algorithm is slow is that it contains many loops that gothrough the input. The more nested loops the algorithm contains, the slower it is. If there are *k* nested loops, the time complexity is **O**(*nᵏ*).
 
 ```cpp
 for (int i = 0; i < n; i++) {
@@ -140,4 +140,4 @@ In this case each function call generates two other calls, except for `n=1`. Let
 
 Based on this, the time complexity is
 
-1 + 2 + 4 + ... + 2n − 1 = 2n − 1 = **O**(2*n*).
+1 + 2 + 4 + ... + 2ⁿ⁻¹ = 2ⁿ⁻¹ = **O**(2*ⁿ*).
